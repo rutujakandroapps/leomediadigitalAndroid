@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FBDEDC"
+    android:padding="10dp"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:padding="0dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:id="@+id/image"
+            android:src="@drawable/ic_pdf"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:id="@+id/lnrpdf"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="KEVAL KUMAR
+SENIOR JOURNALIST
+AND BOLLYWOOD TECHNICIAN N MEDIA PERSON SINCE 60 YEARS !"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="KEVAL KUMAR  JOINED BOLLYWOOD AS ASST PRO ON 1964 WITH KAAJAL, MOHABBAT ZINDAGI HAI  NEEL KAMAL AND SO ON."
+                />
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="WORKED AS PRODUCER DIRECTOR, GHOST DIRECTOR, WRITER,  PRODUCTION DESIGNER, PROJECT DESIGNER N PRO FOR MORE THEN 135 HINDI FILMS IN THE SPAN OF 60 YEARS IN BOLLYWOOD.
+"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="MADE MUSIC ALBUMS ON DURGA MAATA - BANAA LEY SEVADAAR DAATIYE , ALL SONGS SUNG BY LABH JANJUA AND LYRICS BY RAVI CHOPRA."
+                />
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="ALBUM ON GURU NANAK EK MASATNA JOGI, ALL THE SONGS BY JASPINDER NIRULA."
+                />
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="ALBUM ON AJMER SHARRIFF KHAWAJA RANGDE CHUNERIYA SUNG BY MUSTAFAA AZIZ."
+                />
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="ALBUM ON LIFE OF DHARMENDRA 8 SONGS SUNG BY LABH JANJUA."
+                />
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="COMPILED &amp; EDITED
+"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="FILM DIRECTORY MOVIE-O-GRAPHY  OF "
+                />
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="1600 PAGES CONSISTING OF EXCLUSIVE INTERVIEWS OF WHO IS WHO IN FILMS."
+                />
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="DATA OF 107 YEARS OF RELEASED FILMS, ADDRESS, PHONE NUMBERS,"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="ITS ON PLAYSTORE"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="LEO MEDIA DIGITAL "
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="AT PRESENT CHIEF EDITOR OF ONLINE MAGAZINE "
+                />
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="LEO MEDIA DIGITAL"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="+65 ONLINE MAGAZINES. "
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="MEDIA HEAD OF 3 HINDI DAILY FROM DELHI."
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="AT PRESENT WRITING AND DIRECTING 3 MOVIES TO BE SHOT AT FAR EAST AND CANADA."
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="DONE BOLLYWOOD AWARD SHOWS ALL OVER THE GLOBE."
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="DURING COVID GOT MORE THEN 100 CERTIFICATES OF APPRECIATION FOR SOCIAL WORK."
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="CHAIRMAN"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="MOM DAD"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="GOD OF UNIVERSE AWARDS"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="ALL OVER THE GLOBE."
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="KEVAL KUMAR"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="LEO MEDIA DIGITAL "
+                />
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="CALLING        7373 94 7374"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="#5C5959"
+                android:textSize="15dp"
+                android:singleLine="false"
+                android:text="onlymidastouch51@gmail.com"
+                />
+
+
+
+            <TextView
+                android:id="@+id/txtUpdatedDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:paddingLeft="5dp"
+                android:visibility="gone"
+                android:singleLine="false"
+                android:layout_gravity="left"/>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

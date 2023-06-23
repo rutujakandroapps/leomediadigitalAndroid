@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack">
+
+        <LinearLayout
+            android:id="@+id/lnr"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@mipmap/ic_forward"
+                    android:id="@+id/imgback"
+                    android:tint="@color/colorWhite"
+                    android:layout_height="38dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Our Media Partner"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/downnload"
+                        android:tint="@color/colorWhite"
+                        android:src="@mipmap/ic_download"
+                        android:layout_height="40dp" />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/share"
+                        android:src="@drawable/ic_action_share"
+                        android:layout_height="30dp" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.Toolbar>
+        </LinearLayout>
+
+        <com.leomediadigital.custom.TouchImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/imgDisplay"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/lnr"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
